@@ -14,7 +14,10 @@ getAnswers() async {
     //     },
     //     body: "query=how%20do%20i%20stop%20hair%20loss%3F");
 
-    var body = r'[["hello","hello"],["hello","hello"]]';
+    var body =
+        r'[["How to cure redness in pubes?","Just paint them in different color duh"],["How to treat itchy pubes","Just rub them hard enough"]]';
+
+    return (jsonDecode(body));
 
     // String body = response.body;
     // print(jsonDecode(r'' + body));
