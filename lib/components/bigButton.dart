@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:inteli_aid/api/getAnswers.dart';
 import 'package:inteli_aid/components/smallButton.dart';
 
 import '../constants.dart';
@@ -57,6 +58,9 @@ class BigButton extends StatelessWidget {
                   ),
                   SmallButton(
                     icon: FontAwesomeIcons.microphone,
+                    onPressed: () {
+                      getAnswers();
+                    },
                   ),
                 ],
               )

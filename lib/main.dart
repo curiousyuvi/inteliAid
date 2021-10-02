@@ -22,21 +22,27 @@ class MyApp extends StatelessWidget {
         }
       },
       theme: ThemeData(
-          primaryColor: primaryGreen,
-          accentColor: primaryGreen,
-          scaffoldBackgroundColor: creamWhite,
-          textTheme: TextTheme(
-              headline1: TextStyle(
+        primaryColor: primaryGreen,
+        accentColor: primaryGreen,
+        scaffoldBackgroundColor: creamWhite,
+        textTheme: TextTheme(
+            headline1: TextStyle(
+              color: Colors.white,
+              fontFamily: "Josefin",
+              fontSize: 30,
+              fontWeight: FontWeight.bold,
+            ),
+            headline2: TextStyle(
                 color: Colors.white,
                 fontFamily: "Josefin",
-                fontSize: 25,
-                fontWeight: FontWeight.bold,
-              ),
-              headline2: TextStyle(
-                  color: Colors.white,
-                  fontFamily: "Josefin",
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold))),
+                fontSize: 23,
+                fontWeight: FontWeight.bold),
+            bodyText1: TextStyle(
+                color: Colors.black,
+                fontFamily: "Josefin",
+                fontSize: 20,
+                fontWeight: FontWeight.w400)),
+      ),
     );
   }
 }
