@@ -35,7 +35,9 @@ class _AnswerChatState extends State<AnswerChat> {
               Expanded(
                 child: Padding(
                   padding: const EdgeInsets.all(16.0),
-                  child: ChatsListView(),
+                  child: ChatsListView(
+                    chatsList: chats,
+                  ),
                 ),
               ),
               Container(
