@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:intel_aid/constants.dart';
-import 'package:intel_aid/screens/answerChat.dart';
-import 'package:intel_aid/screens/home.dart';
+import 'package:inteli_aid/constants.dart';
+import 'package:inteli_aid/screens/answerChat.dart';
+import 'package:inteli_aid/screens/home.dart';
 
 void main() {
   runApp(MyApp());

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:intel_aid/components/mainAppBar.dart';
+import 'package:inteli_aid/components/mainAppBar.dart';
 
 import '../components/bigButton.dart';
 

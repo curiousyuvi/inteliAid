@@ -1,6 +1,6 @@
 {
-    "name": "intel_aid",
-    "short_name": "intel_aid",
+    "name": "inteli_aid",
+    "short_name": "inteli_aid",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

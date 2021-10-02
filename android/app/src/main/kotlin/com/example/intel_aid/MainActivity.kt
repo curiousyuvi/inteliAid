@@ -1,4 +1,4 @@
-package com.example.intel_aid
+package com.example.inteli_aid
 
 import io.flutter.embedding.android.FlutterActivity
 

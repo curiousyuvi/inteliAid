@@ -1,4 +1,4 @@
-# intel_aid
+# inteli_aid
 
 A new Flutter project.
 

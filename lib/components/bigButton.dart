@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:intel_aid/components/smallButton.dart';
+import 'package:inteli_aid/components/smallButton.dart';
 
 import '../constants.dart';
 
